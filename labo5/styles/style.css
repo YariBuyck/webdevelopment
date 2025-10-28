@@ -1,0 +1,31 @@
+h1
+{
+    font-family: "Arial", Times, serif;
+    font-size: 1.8em;
+}
+h2
+{
+    font-family: "Arial", Times, serif;
+    font-size: 1.5em;
+}
+h3{
+    font-family: "Arial", Times, serif;
+    font-size: 1.4em;
+}
+p
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+.styleRed
+{
+    color:red;
+}
+.styleBlue
+{
+    color:blue;
+}
+.styleYellow
+{
+    color:Yellow;
+}
