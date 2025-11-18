@@ -17,7 +17,7 @@ header h1 {
 
 main {
     width: 95%;
-    margin: auto; /* zorgt voor lege randen */
+    margin: auto;
     padding: 20px;
 }
 
