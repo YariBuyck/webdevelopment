@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+header {
+    background: #334;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+main {
+    width: 95%;
+    margin: auto; /* zorgt voor lege randen */
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.foto-klein {
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.fotogalerij {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.fotogalerij img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+table.prognose {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table.prognose th {
+    background: #556;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+table.prognose td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table.prognose tr.alt td {
+    background: #f0f0f0;
+}
+
+a.terug {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2244aa;
+}
+
+a.terug:hover {
+    text-decoration: underline;
+}
