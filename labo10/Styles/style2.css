@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container-fluid > div > div {
+    background: linear-gradient(45deg, #ff0000 0%, #ff6a00 50%, #fffb00 100%);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+body {
+    width: 100%;
+
+}
+
+html {
+    min-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
