@@ -1,0 +1,6 @@
+const setup = () => {
+    const p = document.querySelectorAll("p");
+    p[0].textContent = "Goed gedaan!";
+}
+
+window.addEventListener("load", setup);
